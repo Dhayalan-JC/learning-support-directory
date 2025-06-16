@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Bright Minds Learning",
+    "specialization": "Dyslexia Support",
+    "location": "Dubai Marina",
+    "rating": 4.5,
+    "shortDescription": "Support for children with dyslexia.",
+    "longDescription": "Bright Minds provides tailored support for children with dyslexia through experienced educators.",
+    "contactEmail": "info@brightminds.ae",
+    "phoneNumber": "0501234567"
+  },
+  {
+    "id": "2",
+    "name": "Focus First Center",
+    "specialization": "ADHD Coaching",
+    "location": "Downtown Dubai",
+    "rating": 4.8,
+    "shortDescription": "ADHD coaching and focus training.",
+    "longDescription": "Focus First Center specializes in ADHD support using modern behavioral techniques.",
+    "contactEmail": "contact@focusfirst.ae",
+    "phoneNumber": "0559876543"
+  },
+  {
+    "id": "3",
+    "name": "Mindful Learning Hub",
+    "specialization": "Autism Spectrum Disorder",
+    "location": "Jumeirah",
+    "rating": 4.7,
+    "shortDescription": "Support for children with autism.",
+    "longDescription": "Mindful Learning Hub offers a range of services for children on the autism spectrum, including therapy and educational support.",
+    "contactEmail": "info@mindfullearning.ae",
+    "phoneNumber": "0543219876"
+  },
+  {
+    "id": "4",
+    "name": "Inclusive Education Center",
+    "specialization": "Special Needs Education",
+    "location": "Al Quoz",
+    "rating": 4.6,
+    "shortDescription": "Comprehensive support for special needs education.",
+    "longDescription": "Inclusive Education Center provides a wide range of services for children with various special needs, including individualized education plans.",
+    "contactEmail": "info@inclusiveeducation.ae",
+    "phoneNumber": "0567890123"
+  },
+  {
+    "id": "5",
+    "name": "Learning Pathways",
+    "specialization": "Speech Therapy",
+    "location": "Dubai Silicon Oasis",
+    "rating": 4.9,
+    "shortDescription": "Expert speech therapy services.",
+    "longDescription": "Learning Pathways offers professional speech therapy to help children improve their communication skills.",
+    "contactEmail": "info@learningpathways.ae",
+    "phoneNumber": "0581234567"
+  }
+]
