@@ -36,7 +36,7 @@ export default function ProviderList() {
           <ProviderCard
             key={provider.id}
             provider={provider}
-            className="col-span-1 p-2"
+            className="col-span-1 p-4"
           />
         ))}
       </div>

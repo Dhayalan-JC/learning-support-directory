@@ -10,7 +10,7 @@ export default function ProviderCard({ provider }) {
         <h2 className="text-lg font-semibold">{provider.name}</h2>
         <p>{provider.specialization}</p>
         <p>{provider.location}</p>
-        <p>⭐ {provider.rating}</p>
+        <p className="text-right">⭐ {provider.rating}</p>
       </Link>
       </>
   );
