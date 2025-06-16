@@ -5,7 +5,7 @@ export default function ProviderCard({ provider }) {
     <>
       <Link
         to={`/providers/${provider.id}`}
-        className="p-4 flex flex-col items-center bg-white border border-gray-200"
+        className="border border-gray-200"
       >
         <h2 className="text-lg font-semibold">{provider.name}</h2>
         <p>{provider.specialization}</p>

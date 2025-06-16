@@ -31,7 +31,7 @@ export default function ProviderList() {
           />
         </div>
       </div>
-      <div className="grid grid-gap">
+      <div class="grid grid-cols-3 gap-4 searchColumn">
         {filtered.map((provider) => (
           <ProviderCard key={provider.id} provider={provider} />
         ))}

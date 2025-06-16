@@ -2,3 +2,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.searchColumn {
+    display: grid;
+    grid-template-columns: 1fr; /* Default: single column for mobile */
+    gap: 10px;
+  }
+  
+  @media (min-width: 768px) {
+    .searchColumn {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on larger screens */
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .searchColumn {
+      grid-template-columns: repeat(3, 1fr); /* Three columns on even larger screens */
+    }
+  }
