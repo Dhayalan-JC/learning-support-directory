@@ -5,7 +5,7 @@ export default function SearchBar({ value, onChange }) {
         type="text"
         placeholder="Search by name or specialization..."
         value={value}
-        className="w-75 border border-gray-200 rounded p-2"
+        className="w-75 border-2 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent rounded p-2 "
         onChange={(e) => onChange(e.target.value)}
       />
     </>
