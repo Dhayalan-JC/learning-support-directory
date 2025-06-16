@@ -18,12 +18,12 @@ export default function ProviderList() {
   );
 
   return (
-    <div className="container p-4 d-flex flex-col items-center grid">
+    <div className="container mx-auto p-4 d-flex flex-col items-center grid">
       <div className="text-center">
         <h1 className="font-sans text-xl font-bold mb-4">
           Learning Support Providers
         </h1>
-        <div className="text-center mb-3">
+        <div className="text-center p-4">
           <SearchBar
             value={searchTerm}
             onChange={setSearchTerm}
@@ -33,7 +33,7 @@ export default function ProviderList() {
       </div>
       <div class="grid grid-cols-3 gap-4 searchColumn">
         {filtered.map((provider) => (
-          <ProviderCard key={provider.id} provider={provider} />
+          <ProviderCard key={provider.id} provider={provider} className="col-span-1 p-2" />
         ))}
       </div>
     </div>

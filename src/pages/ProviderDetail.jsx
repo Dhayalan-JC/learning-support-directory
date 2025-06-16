@@ -16,8 +16,8 @@ export default function ProviderDetail() {
   if (!provider) return <p>Loading...</p>;
 
   return (
-    <div className="p-4">
-      <button onClick={() => navigate(-1)} className="mb-4 text-blue-600">
+    <div className="p-4 container mx-auto ">
+      <button onClick={() => navigate(-1)} className="mb-4 text-blue-600 cursor-pointer">
         ← Back to List
       </button>
       <h1 className="text-2xl font-bold">{provider.name}</h1>
